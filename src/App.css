@@ -1,38 +1,361 @@
-.App {
-  text-align: center;
+.header {
+    width: 100%;
+    min-height: 80vh;
+    background-image: url('./img2.png');
+    background-position: bottom;
+    background-size: cover;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 100px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+    /* width: 1140px;s */
+    padding-top: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.main svg {
+    font-size: 75px;
+    color: #e07976;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.main.col {
+    font-size: 41px;
+    font-style: normal;
+    font-weight: bold;
 }
 
-.App-link {
-  color: #61dafb;
+col .main {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: revert;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.img svg {
+    font-size: 21px;
+    color: #e07976;
+    margin-top: 9px;
+}
+
+.img1 svg {
+    font-size: 31px;
+    color: #e07976;
+    margin-top: 4px;
+}
+
+.col-md-auto {
+    padding: 13px 0px;
+}
+
+.col-lg-2.col {
+    font-size: 14px;
+    font-family: revert;
+    font-weight: bold;
+    margin-top: 14px;
+
+}
+
+.button1 button.btn.btn-lg {
+    color: aliceblue;
+    background: #e07976;
+    margin-top: 5px;
+    /* margin-left: 53px; */
+    font-size: 12px;
+    padding: 16px 39px;
+    /* margin-left: 35px; */
+}
+
+.button button.btn.btn-lg {
+    color: aliceblue;
+    background: #e07976;
+    margin-top: 5px;
+    padding: 12px 42px;
+}
+
+.button1 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+    border-radius: 14px;
+}
+
+a.demo.nav-link {
+    margin-left: 20px;
+}
+
+.demo {
+    margin-left: 17px;
+}
+
+.row.row-cols-auto {
+    display: contents;
+}
+
+.col li {
+    list-style: none;
+}
+
+.col li svg {
+    font-size: 20px;
+}
+
+.Hr {
+    margin-top: 125px;
+    width: 49%;
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+    font-style: normal;
+    font-family: inherit;
+    text-transform: capitalize;
+    line-height: 66px;
+}
+
+.button button.btn.btn-lg {
+    color: aliceblue;
+    background: #e07976;
+    margin-top: 5px;
+    /* margin-left: 53px; */
+    font-size: medium;
+    padding: 13px 47px;
+    margin-top: 30px;
+}
+
+.rt4.col-lg-2.col {
+    font-size: 12px;
+    font-family: inherit;
+    font-weight: bold;
+    /* margin-top: 214px; */
+    margin-left: 41px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #5d62b5;
+}
+
+.img4 svg {
+    font-size: 21px;
+    color: #5d62b5;
+    margin-bottom: -75px;
+}
+
+
+@media only screen and (max-width: 1199px) {
+    button.btn.btn-lg {
+        font-size: inherit;
+        margin-top: 14px;
+        padding: 9px 20px;
+    }
+
+    .button button.btn.btn-lg {
+        color: aliceblue;
+        background: #e07976;
+        margin-top: 5px;
+        /* margin-left: 53px */
+        font-size: medium;
+        padding: 10px 39px;
+        margin-top: 22px;
+    }
+
+    .Hr {
+        margin-top: 123px;
+        width: 80%%;
+        font-size: 48px;
+        color: #fff;
+        line-height: 55px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .button1 button.btn.btn-lg {
+        color: aliceblue;
+        background: #e07976;
+        margin-top: 5px;
+        font-size: 14px;
+        padding: 12px 24px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .main.col {
+        font-size: 47px;
+        display: contents;
+    }
+
+    .main svg {
+        font-size: 79px;
+        color: #e07976;
+    }
+
+    .main.col {
+        font-size: 47px;
+    }
+
+    .col-md-auto {
+        padding: 13px 0px;
+        display: none;
+    }
+
+    .col-lg-2.col {
+        font-size: 14px;
+        font-family: revert;
+        font-weight: bold;
+        margin-top: 14px;
+        display: none;
+    }
+
+    .col-md-auto {
+        padding: 13px 0px;
+        display: none;
+    }
+
+    .Hr {
+        line-height: 56px;
+    }
+
+    .button button.btn.btn-lg {
+        padding: 10px 18px;
+        font-size: 14px;
+    }
+
+
+
+
+}
+
+@media only screen and (max-width: 767px) {
+    .main.col {
+        font-size: 43px;
+        display: contents;
+    }
+
+    .main svg {
+        font-size: 73px;
+        color: #e07976;
+    }
+
+    .button1 button.btn.btn-lg {
+        margin-top: 21px;
+        color: aliceblue;
+        background: #e07976;
+        margin-top: 5px;
+        font-size: 12px;
+        padding: -4px 11px;
+        padding: 15px 16px;
+    }
+
+    .main.col {
+        font-size: 47px;
+    }
+
+    .col-md-auto {
+        padding: 13px 0px;
+        display: none;
+    }
+
+    .col-lg-2.col {
+        font-size: 14px;
+        font-family: revert;
+        font-weight: bold;
+        margin-top: 14px;
+        display: none;
+    }
+
+    .col-md-auto {
+        padding: 13px 0px;
+        display: none;
+    }
+
+    .Hr {
+        width: 85%;
+        font-size: 43px;
+
+    }
+
+    .button button.btn.btn-lg {
+        padding: 10px 24px;
+        margin-bottom: 7px;
+    }
+}
+
+@media only screen and (max-width: 536px) {
+    .button1 button.btn.btn-lg {
+        margin-top: 21px;
+        color: aliceblue;
+        background: #e07976;
+        margin-top: 14px;
+        font-size: 14px;
+        padding: 12px 17px;
+    }
+}
+
+@media only screen and (max-width: 535px) {
+    .main svg {
+        font-size: 73px;
+        color: #e07976;
+        justify-content: center;
+        display: flex;
+    }
+
+    .button1 button.btn.btn-lg {
+        padding: 13px 52px;
+    }
+
+    .Hr {
+        width: 75%;
+        font-size: 39px;
+    }
+
+    .button button.btn.btn-lg {
+        padding: 9px 24px;
+    }
+
+    .button button.btn.btn-lg {
+        color: aliceblue;
+        background: #e07976;
+        margin-top: 5px;
+        font-size: 15px;
+        padding: 10px 39px;
+        margin-top: 12px;
+    }
+
+    .button1 {
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+@media only screen and (max-width: 320px) {
+    .main svg {
+        font-size: 80px;
+        color: #e07976;
+        justify-content: center;
+        display: flex;
+    }
+
+    .main.col {
+        font-size: 41px;
+    }
+
+    .button1 button.btn.btn-lg {
+        font-size: medium;
+
+    }
+
+    .Hr {
+        width: 100%;
+        font-size: 38px;
+        margin-top: 55px;
+    }
+
+    .button button.btn.btn-lg {
+        color: aliceblue;
+        background: #e07976;
+        margin-top: 5px;
+        font-size: 15px;
+        padding: 11px 24px;
+        margin-top: 12px;
+    }
 }
