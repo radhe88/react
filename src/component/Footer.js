@@ -2,7 +2,11 @@ import React from 'react'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import { FaFacebookF, FaTwitter, FaInstagram, FaYoutube } from 'react-icons/fa';
+import { CiLocationOn } from 'react-icons/ci';
+import { FiMail } from 'react-icons/fi';
+import { CiStopwatch } from 'react-icons/ci';
+
+import { FaFacebookF, FaTwitter, FaInstagram, FaYoutube,FaMobileAlt } from 'react-icons/fa';
 
 const Footer = () => {
     return (
@@ -50,6 +54,26 @@ const Footer = () => {
                     <Col lg={4}>
                         <div className='f2'>
                             <h3>CONTACT</h3>
+                            <div className='footl'>
+                                <i><CiLocationOn />
+                                <span>321 Pikes Place Parkway Seattle, WA 54321</span>
+                                </i>
+                            </div>
+                            <div className='footl'>
+                                <i><FaMobileAlt />
+                                <span>(555) 765-4321</span>
+                                </i>
+                            </div>
+                            <div className='footl'>
+                                <i><FiMail />
+                                <span>Info@company.com</span>
+                                </i>
+                            </div>
+                            <div className='footl'>
+                                <i><CiStopwatch />
+                                <span>Mon - Sat:  7:000 am - 6:00 pm</span>
+                                </i>
+                            </div>
                         </div>
                         <div>
 
@@ -65,11 +89,3 @@ const Footer = () => {
 }
 
 export default Footer
-// < div className = '' >
-{/* <Row xs="auto d-flex" >
-                                        <Col>1 of 3</Col>
-                                        <Col>2 of 3</Col>
-                                        <Col>3 of 3</Col>
-                                        <Col>3 of 3</Col>
-                                    </Row> */}
-                                // </div >
