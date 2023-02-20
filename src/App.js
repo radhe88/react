@@ -4,6 +4,7 @@ import Footer from './component/Footer'
 import Dog from './component/Dog'
 import Adone from './component/Adone'
 import Compp2 from './component/Compp2'
+import Footerl from './component/Footerl'
 import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -25,6 +26,7 @@ import './css/dog.css'
 import './css/adone.css'
 import './css/compp2.css'
 import './css/footer.css'
+import './css/footerl.css'
 
 function App() {
   return (
@@ -136,7 +138,9 @@ function App() {
       <section>
         <Footer />
       </section>
-
+      <div>
+        <Footerl />
+      </div>
     </>
   );
 }

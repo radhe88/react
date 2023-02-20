@@ -228,7 +228,7 @@ h5.client-name {
         color: red;
         font-size: larger;
         font-weight: 700;
-        font-family: cursive;
+        font-family: inherit;
     }
 }
 
@@ -245,7 +245,7 @@ h5.client-name {
     }
 
     .sec2 img {
-        margin-top: -9px;
+        margin-top: -51px;
     }
 
     /* .rt1.col-lg-2.col {

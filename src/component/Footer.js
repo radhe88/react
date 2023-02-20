@@ -6,14 +6,14 @@ import { CiLocationOn } from 'react-icons/ci';
 import { FiMail } from 'react-icons/fi';
 import { CiStopwatch } from 'react-icons/ci';
 
-import { FaFacebookF, FaTwitter, FaInstagram, FaYoutube,FaMobileAlt } from 'react-icons/fa';
+import { FaFacebookF, FaTwitter, FaInstagram, FaYoutube, FaMobileAlt } from 'react-icons/fa';
 
 const Footer = () => {
     return (
         <>
             <Container>
                 <Row>
-                    <Col lg={4}>
+                    <Col xl={3} lg={3} md={6} sm={12} >
                         <div className='foot1'>
                         </div>
                         <div className='footp'>
@@ -29,7 +29,7 @@ const Footer = () => {
                         </div>
 
                     </Col>
-                    <Col lg={2}>
+                    <Col xl={2} lg={2} md={3} sm={4}  >
                         <div className='f2'>
                             <h3>EXPLORE LINKS</h3>
                         </div>
@@ -43,7 +43,7 @@ const Footer = () => {
                         </div>
 
                     </Col>
-                    <Col lg={2}> <div className='f4'>
+                    <Col xl={2} lg={1} md={3} sm={4} > <div className='f4'>
                         <ul>
                             <li><a href=""></a>review</li>
                             <li><a href=""></a>shop</li>
@@ -51,35 +51,32 @@ const Footer = () => {
                             <li><a href=""></a>FAQs</li>
                         </ul>
                     </div></Col>
-                    <Col lg={4}>
+                    <Col xl={5} lg={6} md={12} sm={12}>
                         <div className='f2'>
                             <h3>CONTACT</h3>
-                            <div className='footl'>
-                                <i><CiLocationOn />
-                                <span>321 Pikes Place Parkway Seattle, WA 54321</span>
-                                </i>
-                            </div>
-                            <div className='footl'>
-                                <i><FaMobileAlt />
-                                <span>(555) 765-4321</span>
-                                </i>
-                            </div>
-                            <div className='footl'>
-                                <i><FiMail />
-                                <span>Info@company.com</span>
-                                </i>
-                            </div>
-                            <div className='footl'>
-                                <i><CiStopwatch />
-                                <span>Mon - Sat:  7:000 am - 6:00 pm</span>
-                                </i>
+                            <div className='coll'>
+                                <div className='footl'>
+                                    <i><CiLocationOn />
+                                        <span>321 Pikes Place Parkway Seattle, WA 54321</span>
+                                    </i>
+                                </div>
+                                <div className='footl'>
+                                    <i><FaMobileAlt />
+                                        <span>(555) 765-4321</span>
+                                    </i>
+                                </div>
+                                <div className='footl'>
+                                    <i><FiMail />
+                                        <span>Info@company.com</span>
+                                    </i>
+                                </div>
+                                <div className='footl'>
+                                    <i><CiStopwatch />
+                                        <span>Mon - Sat:  7:000 am - 6:00 pm</span>
+                                    </i>
+                                </div>
                             </div>
                         </div>
-                        <div>
-
-                        </div>
-
-
 
                     </Col>
                 </Row>

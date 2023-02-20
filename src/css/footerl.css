@@ -1,0 +1,100 @@
+.footr {
+    background-color: #5d62b5;
+    margin-top: 20px;
+}
+
+.footls h3 {
+    font-size: 17px;
+    font-weight: 600;
+    font-family: math;
+    color: #ffffff;
+    cursor: pointer;
+    justify-content: flex-start;
+    display: flex;
+    align-items: flex-start;
+}
+
+.footlr span {
+    margin-left: 13px;
+    margin-right: 12px;
+    display: block;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: math;
+
+}
+
+.footlr h3 {
+    font-size: 17px;
+    font-weight: 600;
+    font-family: math;
+    color: #ffffff;
+    cursor: pointer;
+    justify-content: flex-end;
+    display: flex;
+    align-items: flex-end;
+}
+
+@media only screen and (max-width: 1200px) {
+    .footls h3 {
+        font-size: 16px;
+    }
+
+    .footlr h3 {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    .footls h3 {
+        font-size: 14px;
+    }
+
+    .footlr h3 {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .footls h3 {
+        font-size: 13px;
+    }
+
+    .footlr h3 {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .footls h3 {
+        font-size: 11px;
+    }
+
+    .footlr h3 {
+        font-size: 11px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .footls h3 {
+        font-size: 12px;
+        justify-content: center;
+    }
+
+    .footlr h3 {
+        font-size: 12px;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .footls h3 {
+        font-size: 10px;
+        justify-content: center;
+    }
+
+    .footlr h3 {
+        font-size: 10px;
+        justify-content: center;
+    }
+}

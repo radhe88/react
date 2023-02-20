@@ -141,6 +141,8 @@ a.demo.nav-link {
 }
 
 
+
+
 @media only screen and (max-width: 1199px) {
     button.btn.btn-lg {
         font-size: inherit;
@@ -212,6 +214,7 @@ a.demo.nav-link {
 
     .Hr {
         line-height: 56px;
+        width: 100%;
     }
 
     .button button.btn.btn-lg {
@@ -239,14 +242,14 @@ a.demo.nav-link {
         margin-top: 21px;
         color: aliceblue;
         background: #e07976;
-        margin-top: 5px;
+        margin-top: 17px;
         font-size: 12px;
         padding: -4px 11px;
-        padding: 15px 16px;
+        padding: 13px 9px;
     }
 
     .main.col {
-        font-size: 47px;
+        font-size: 52px;
     }
 
     .col-md-auto {
@@ -268,7 +271,7 @@ a.demo.nav-link {
     }
 
     .Hr {
-        width: 85%;
+        width: 100%;
         font-size: 43px;
 
     }
@@ -299,11 +302,11 @@ a.demo.nav-link {
     }
 
     .button1 button.btn.btn-lg {
-        padding: 13px 52px;
+        padding: 12px 17px;
     }
 
     .Hr {
-        width: 75%;
+        width: 100%;
         font-size: 39px;
     }
 
