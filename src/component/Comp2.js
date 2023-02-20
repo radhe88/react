@@ -11,7 +11,7 @@ const Comp2 = (props) => {
     <div className='container'>
       <div className='traning-item'>
         <img className='card-img-top1 client-img1' src={heart} alt="" />
-        <h3>pet boarding(no)</h3>
+        <h3>{props.name}</h3>
         <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium corrupti quos dolores et quas.</p>
       </div>
     </div>

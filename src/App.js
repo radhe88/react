@@ -2,6 +2,7 @@ import Comp1 from './component/Comp1'
 import Card1 from './component/Card1'
 import Footer from './component/Footer'
 import Dog from './component/Dog'
+import Comp2 from './component/Comp2'
 import Adone from './component/Adone'
 import Compp2 from './component/Compp2'
 import Footerl from './component/Footerl'
@@ -18,6 +19,8 @@ import { MdCall } from 'react-icons/md';
 import { BsClock } from 'react-icons/bs';
 import { FiSearch } from 'react-icons/fi';
 import { TbShoppingCart } from 'react-icons/tb';
+import { useState } from 'react';
+
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
@@ -29,6 +32,45 @@ import './css/footer.css'
 import './css/footerl.css'
 
 function App() {
+  const [data, setData] = useState([
+    {
+      image: "https://rickandmortyapi.com/api/character/avatar/1.jpeg",
+      name: "Pet Boarding (No",
+      p: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium corrupti quos dolores et quas."
+
+    },
+    {
+      image: "https://rickandmortyapi.com/api/character/avatar/1.jpeg",
+      name: "Pet Boarding No)",
+      p: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium corrupti quos dolores et quas."
+
+    },
+    {
+      image: "https://rickandmortyapi.com/api/character/avatar/1.jpeg",
+      name: "Pet Boarding(No)",
+      p: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium corrupti quos dolores et quas."
+
+    },
+    {
+      image: "https://rickandmortyapi.com/api/character/avatar/1.jpeg",
+      name: "Pet Boarding(No)",
+      p: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium corrupti quos dolores et quas."
+
+    },
+    {
+      image: "https://rickandmortyapi.com/api/character/avatar/1.jpeg",
+      name: "Pet Boarding(No)",
+      p: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium corrupti quos dolores et quas."
+
+    },
+    {
+      image: "https://rickandmortyapi.com/api/character/avatar/1.jpeg",
+      name: "Pet Boarding(No)",
+      p: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium corrupti quos dolores et quas."
+
+    }
+
+  ])
   return (
     <>
       <div className='header'>
@@ -127,7 +169,20 @@ function App() {
         <Dog />
       </section>
       <section>
-        <Card1 />
+
+       <div className='container'>
+       <Row>
+        {
+          data.map((el) => {
+            console.log(el.name);
+            return <Col lg={4} md={4} sm={6} ><Comp2 name={el.name} /></Col>
+          })
+        }
+        </Row>
+
+       </div>
+
+        {/* <Card1 /> */}
       </section>
       <section>
         <Adone />
