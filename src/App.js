@@ -102,7 +102,7 @@ function App() {
           <Navbar bg="light" expand="lg">
             <Container fluid>
               <NavDropdown title="Service" id="navbarScrollingDropdown">
-                <NavDropdown.Item className='demo' href="#action3">Action</NavDropdown.Item>
+                <NavDropdown.Item className='demo' href="#action1">Action</NavDropdown.Item>
                 <NavDropdown.Item href="#action4">
                   Another action
                 </NavDropdown.Item>
@@ -115,24 +115,25 @@ function App() {
               <Navbar.Collapse id="navbarScroll ">
                 <Nav
                   className="me-auto my-2 my-lg-0"
-                  style={{ maxHeight: '100px' }}
+                  // style={{ maxHeight: '100px' }}
+                  color='black'
                   navbarScroll
                 >
-                  <Nav.Link className='demo' href="#action1">Special</Nav.Link>
-                  <Nav.Link className='demo' href="#action2">Facilities</Nav.Link>
-                  <Nav.Link className='demo' href="#action2">Reviews</Nav.Link>
+                  <Nav.Link className='demo' href="#action2">Special</Nav.Link>
+                  <Nav.Link className='demo' href="#action3">Facilities</Nav.Link>
+                  <Nav.Link className='demo' href="#action4">Reviews</Nav.Link>
 
                   <NavDropdown className='demo' title="Shop" id="navbarScrollingDropdown">
-                    <NavDropdown.Item href="#action3"></NavDropdown.Item>
-                    <NavDropdown.Item href="#action4">
+                    <NavDropdown.Item href="#action5"></NavDropdown.Item>
+                    <NavDropdown.Item href="#action6">
                       Another action
                     </NavDropdown.Item>
                     <NavDropdown.Divider />
-                    <NavDropdown.Item href="#action5">
+                    <NavDropdown.Item href="#action7">
                       Something else here
                     </NavDropdown.Item>
                   </NavDropdown>
-                  <Nav.Link className='demo' href="#action2">About</Nav.Link>
+                  <Nav.Link className='demo' href="#action8">About</Nav.Link>
                 </Nav>
                 <Form className="d-flex">
                   <Row xs="auto">

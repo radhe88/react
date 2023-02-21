@@ -29,13 +29,13 @@ const Compp2 = () => {
                     <Nav.Link eventKey="link-1">Loooonger NavLink</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link eventKey="link-1">Loooonger NavLink</Nav.Link>
+                    <Nav.Link eventKey="link-2">Loooonger NavLink</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link eventKey="link-2">Link</Nav.Link>
+                    <Nav.Link eventKey="link-3">Link</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link eventKey="link-2">Link</Nav.Link>
+                    <Nav.Link eventKey="link-4">Link</Nav.Link>
                   </Nav.Item>
                 </Nav>
               </Col>

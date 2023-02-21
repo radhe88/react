@@ -17,11 +17,9 @@
     justify-content: center;
     margin-top: 80px;
 }
-
-/* 
-form {
-    width: 100%;
-} */
+.nav-link{
+    color: #0c0e2c;
+}
 
 * {
     margin: 0;
