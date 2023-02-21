@@ -35,37 +35,37 @@ function App() {
   const [data, setData] = useState([
     {
       image: "https://rickandmortyapi.com/api/character/avatar/1.jpeg",
-      name: "Pet Boarding (No",
+      name: "Pet Boarding (No Cages)",
       p: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium corrupti quos dolores et quas."
 
     },
     {
       image: "https://rickandmortyapi.com/api/character/avatar/1.jpeg",
-      name: "Pet Boarding No)",
+      name: "Pet Daycare",
       p: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium corrupti quos dolores et quas."
 
     },
     {
       image: "https://rickandmortyapi.com/api/character/avatar/1.jpeg",
-      name: "Pet Boarding(No)",
+      name: "Pet Day Spa & Grooming",
       p: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium corrupti quos dolores et quas."
 
     },
     {
       image: "https://rickandmortyapi.com/api/character/avatar/1.jpeg",
-      name: "Pet Boarding(No)",
+      name: "Custom Meal Plans",
       p: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium corrupti quos dolores et quas."
 
     },
     {
       image: "https://rickandmortyapi.com/api/character/avatar/1.jpeg",
-      name: "Pet Boarding(No)",
+      name: "Pet Training",
       p: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium corrupti quos dolores et quas."
 
     },
     {
       image: "https://rickandmortyapi.com/api/character/avatar/1.jpeg",
-      name: "Pet Boarding(No)",
+      name: "Shop Our Store!",
       p: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium corrupti quos dolores et quas."
 
     }
